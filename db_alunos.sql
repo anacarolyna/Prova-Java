@@ -84,7 +84,5 @@ values (3,20,29, 7);
  values (10,90,100, 1);
  
  -- CONSULTA --
--- select Alunos.id,Alunos.nome, Alunos.valor, Notas.nota from Alunos, Notas where nota > 8 order by nome asc;
--- select Alunos.nome, Alunos.valor, Notas.nota from Alunos, Notas where nota < 8 order by nota desc;
 select Alunos.nome, Alunos.valor, Notas.nota from Alunos inner join Notas on fk_notas = id where nota >= 8 order by nota desc;
 select Alunos.nome, Alunos.valor, Notas.nota from Alunos inner join Notas on fk_notas = id where nota < 8 order by nota desc;
