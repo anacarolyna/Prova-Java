@@ -21,7 +21,7 @@ primary key (id)
  foreign key (fk_notas) references Alunos(id)
  );
  
- -- Alunos -- 
+ -- ALUNOS -- 
  insert into Alunos (nome, valor)
  values ("Julia",81);
  
@@ -52,7 +52,7 @@ values (null,63);
 insert into Alunos (nome, valor)
 values (null,63);
 
- -- Notas --
+ -- NOTAS --
 insert into Notas (nota, valor_min,valor_max, fk_notas)
  values (1,0,9, 6);
  
