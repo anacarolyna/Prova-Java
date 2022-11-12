@@ -10,7 +10,7 @@ public class Multiplos {
 			else if (i % 5 ==0){
 					System.out.println("Baa");
 			}
-			else (i % 3 ==0 && i % 5 ==0){
+			else if(i % 3 ==0 && i % 5 ==0){
 					System.out.println("FooBaa");
 			}
 				
